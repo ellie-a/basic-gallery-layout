@@ -3,6 +3,19 @@
   border:1px dashed #000;
 }*/
 
+body {
+  margin: 0;
+  padding: 0;
+}
+/*@media only screen and (min-width: 416px) {
+
+  .navbar {
+    height: 10vh;
+    background-color: lavender;
+    width: 100vw;
+  }
+
+}*/
 @media only screen and (max-width: 415px) {
 
   .navbar {
@@ -10,40 +23,48 @@
     background-color: lavender;
     /*margin-bottom: 5%*/
   }
+  .box1-3{
+    margin: 5%;
+    margin-left: 6.5%;
+    column-count: 1;
+  }
   .box1 {
     height: 25vh;
     width: 85vw;
     background-color: lightpink;
-    margin: 5%;
   }
   .box2 {
     height: 25vh;
     width: 85vw;
     background-color: lightpink;
-    margin: 5%;
+    margin-top: 5%;
   }
   .box3 {
     height: 25vh;
     width: 85vw;
     background-color: lightpink;
+    margin-top: 5%;
+  }
+  .box4-6 {
     margin: 5%;
+    margin-left: 6.5%;
+    column-count: 1;
   }
   .box4 {
     height: 25vh;
     width: 85vw;
     background-color: lightpink;
-    margin: 5%;
   }
   .box5 {
     height: 25vh;
     width: 85vw;
     background-color: lightpink;
-    margin: 5%;
-  }
+    margin-top: 5%;
+ }
   .box6 {
     height: 25vh;
     width: 85vw;
     background-color: lightpink;
-    margin: 5%;
+    margin-top: 5%;
   }
 }
