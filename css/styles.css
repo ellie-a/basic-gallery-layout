@@ -7,42 +7,24 @@ body {
   margin: 0;
   padding: 0;
 }
+
 @media only screen and (min-width: 416px) {
 
   .navbar {
     height: 10vh;
     background-color: lavender;
     width: 100vw;
-
 }
   .box1-6{
-    /*margin: 5%;*/
-    margin-left: 2.5%;
-    margin-right: 5.5%;
+    margin-left: 4.85%;
     column-count: 2;
-    /*width: 45vw;*/
+    width: 90vw;
   }
-  /*.box4-6{
-    margin: 5%;
-    margin-left: 6.5%;
-    float: left;
-    column-count: 1;
-    width: 45vw;
-
-  }*/
   .box1, .box4, .box2, .box3, .box5, .box6 {
     height: 25vh;
-    width: 50vw;
-    background-color: lightpink;
-    margin-top: 5%
-  }
-  /*.box2, .box3, .box5, .box6  {
-    height: 25vh;
-    width: 85vw;
     background-color: lightpink;
     margin-top: 5%;
-  }*/
-
+  }
 }
 @media only screen and (max-width: 415px) {
 
