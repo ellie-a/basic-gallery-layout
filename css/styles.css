@@ -1,14 +1,29 @@
-/**:not(body):not(html) {
-  box-sizing:border-box;
-  border:1px dashed #000;
-}*/
-
 body {
   margin: 0;
   padding: 0;
 }
+@media only screen and (min-width: 801px) {
 
-@media only screen and (min-width: 416px) {
+  .navbar {
+    height: 10vh;
+    background-color: lavender;
+    width: 100vw;
+  }
+  .row1, .row2 {
+    width: 100vw;
+  }
+
+  .box1, .box4, .box2, .box3, .box5, .box6 {
+    height: 30vh;
+    background-color: lightpink;
+    margin-top: 5%;
+    width: 25vw;
+    margin-left: 6.25%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 800px) {
 
   .navbar {
     height: 10vh;
@@ -26,6 +41,7 @@ body {
     margin-top: 5%;
   }
 }
+
 @media only screen and (max-width: 415px) {
 
   .navbar {
